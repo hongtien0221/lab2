@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+/* section_normal_1 */
+#section_normal_1 {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+#section_normal_1 .sixteen {
+    display: flex;
+    justify-content: space-around;
+}
+#section_normal_1 .two-thirds {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+#section_normal_1 .two-thirds .slow_fade {
+    margin-left: 10px;
+}
+#section_normal_1 .two-thirds .htext_style {
+    color: #999;
+    margin-right: 15px;
+}
+
+/* section_normal_4_2 */
+#section_normal_4_2 {
+    background-color: #333333;
+    padding: 40px;
+}
+/* Định dạng phần container bên trong big_padding */
+#section_normal_4_2 .container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+#section_normal_4_2 .sixteen {
+    display: flex;
+}
+/* Định dạng phần eight columns */
+#section_normal_4_2 .eight.columns {
+    width: 50%;
+    padding: 10px;
+}
+#section_normal_4_2 .img_style {
+    max-width: 100%;
+    height: auto;
+}
+#section_normal_4_2 .bold_text {
+    font-weight: bold;
+}
+#section_normal_4_2 .big_text {
+    font-size: 24px;
+}
+#section_normal_4_2 .big_title {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#section_normal_4_2 .blue_text {
+    color: #2dc0e8;
+}
+#section_normal_4_2 .normal_text {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+/* Định dạng nút */
+#section_normal_4_2 .pix_button {
+    padding: 10px 20px;
+    background-color: #2dc0e8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    max-width: 160px;
+}
+#section_normal_4_2 .pix_button .icons {
+    margin-right: 10px;
+}
+#section_normal_4_2 .pix_button:hover {
+    background-color: blue;
+}
+
+/*section_normal_6*/
+#section_normal_6 {
+    background-color: #eeeeee;
+    padding: 40px 0;
+    text-align: center;
+}
+/* Định dạng tiêu đề "What our awesome clients say" */
+.L1_style {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+/* Định dạng tiêu đề "great words from great people" */
+.L2_style {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 45px;
+}
+.logo_style {
+    max-width: 100px;
+    border-radius: 50%;
+}
+#section_normal_6 .txt_style {
+    padding: 15px;
+    text-align: left;
+}
+.stbox {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.container_box {
+    display: flex;
+    justify-content: center;
+}
+
+/*box1*/
+#section_normal_6 .alpha {
+    background-color: white;
+    max-width: 540px;
+    border-radius: 10px;
+}
+#section_normal_6 .alpha .box_1 {
+    display: flex;
+}
+/*img*/
+#section_normal_6 .alpha .b_style {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+/*text*/
+#section_normal_6 .txt_style .editContent{
+    margin-bottom: 10px;
+}
+#section_normal_6 .txt_style .editContent .pix_text{
+    color: #5ca5fc;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/*box2*/
+#section_normal_6 .omega {
+    background-color: white;
+    max-width: 540px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+#section_normal_6 .omega .box_2 {
+    display: flex;
+}
+#section_normal_6 .omega .b_style {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+/*section_agency_5*/
+#section_agency_5 {
+    background-color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+}
+/* Định dạng tiêu đề */
+.f1_style {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5b9a68;
+    margin-bottom: 25px;
+}
+.f2_style {
+    font-size: 16px; /* Kích thước chữ */
+    color: #888; /* Màu chữ */
+    margin-bottom: 20px; /* Khoảng cách dưới */
+}
+.get_2_btn a {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: transparent; /* Màu nền nút */
+    color: #5b9a68; /* Màu chữ nút */
+    font-weight: bold;
+    border: 2px solid;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 30px;
+}
+.get_2_btn a:hover {
+    background-color: #007f46; /* Màu xanh lá đậm */
+    color: white;
+}
+/* Định dạng phần rights_st */
+#section_agency_5 .rights_st {
+    font-size: 14px; /* Kích thước chữ */
+    color: #888; /* Màu chữ */
+}
+#section_agency_5 .editContent .pixfort_st {
+    color: #5b9a68;
+    font-weight: bold;
+}
+
+/* Định dạng các nút xã hội */
+.social_button {
+    margin-right: 5px; /* Khoảng cách giữa các nút */
+}
+
+#section_agency_5 .pix_inline_block {
+    margin-top: 20px;
+}
+
+.social_button img {
+    max-width: 30px; /* Chiều rộng tối đa của biểu tượng xã hội */
+}
